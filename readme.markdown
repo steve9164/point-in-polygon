@@ -1,5 +1,4 @@
-point-in-polygon
-================
+# point-in-polygon
 
 Determine if a point is inside of a polygon.
 
@@ -7,8 +6,7 @@ This module casts a ray from the inquiry point and counts intersections,
 based on
 [this algorithm](http://www.ecse.rpi.edu/Homepages/wrf/Research/Short_Notes/pnpoly.html).
 
-example
-=======
+# example
 
 ``` js
 var inside = require('point-in-polygon');
@@ -27,13 +25,13 @@ output:
 [ true, false, true ]
 ```
 
-methods
-=======
+# methods
 
+``` js
 var inside = require('point-in-polygon')
+```
 
-inside(point, polygon)
-----------------------
+## inside(point, polygon)
 
 Return whether `point` is contained in `polygon`.
 
@@ -41,7 +39,12 @@ Return whether `point` is contained in `polygon`.
 
 `polygon` should be an array of 2-item arrays of coordinates.
 
-install
-=======
+# install
 
-    npm install point-in-polygon
+```
+npm install point-in-polygon
+```
+
+# license
+
+MIT

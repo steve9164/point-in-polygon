@@ -1,5 +1,5 @@
-var test = require('tap').test;
-var inside = require('point-in-polygon');
+var test = require('tape');
+var inside = require('../');
 
 test('box', function (t) {
     var polygon = [ [ 1, 1 ], [ 1, 2 ], [ 2, 2 ], [ 2, 1 ] ];
